@@ -1,6 +1,7 @@
 import { motion } from "motion/react";
 import { Mail, MapPin, Send } from "lucide-react";
 import { useState } from "react";
+import emailjs from "@emailjs/browser";
 
 export default function Contact() {
   const [formData, setFormData] = useState({
@@ -9,14 +10,30 @@ export default function Contact() {
     message: ""
   });
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    console.log("Form submitted:", formData);
-    alert("Message sent! (This is a demo)");
-    setFormData({ name: "", email: "", message: "" });
-  };
+  const handleSubmit = (e: React.FormEvent<HTMLFormElement>) => {
+  e.preventDefault();
 
-  const handleChange = (e) => {
+  emailjs.send(
+    "service_tctie1l",
+    "template_igu04qr",
+    {
+      from_name: formData.name,
+      from_email: formData.email,
+      message: formData.message,
+    },
+    "SBtYew4y_HZ-qyCR6"
+  )
+  .then(() => {
+    alert("Message sent successfully ✅");
+    setFormData({ name: "", email: "", message: "" });
+  })
+  .catch((error) => {
+    console.error(error);
+    alert("Failed to send ❌");
+  });
+};
+
+  const handleChange = (e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>) => {
     setFormData({
       ...formData,
       [e.target.name]: e.target.value
