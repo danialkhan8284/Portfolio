@@ -120,6 +120,10 @@ export default function Contact() {
                   <div className="w-2 h-2 bg-[#00d9ff] rounded-full" />
                   Freelance Opportunities
                 </li>
+                  <li className="flex items-center gap-3 text-gray-300">
+                  <div className="w-2 h-2 bg-[#00d9ff] rounded-full" />
+                  Python Development
+                </li>
               </ul>
             </div>
           </motion.div>

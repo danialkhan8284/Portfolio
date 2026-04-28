@@ -5,7 +5,7 @@ export default function Skills() {
     {
       title: "Backend",
       color: "#00ff41",
-      skills: ["Node.js", "Express.js", "REST APIs", "MongoDB", "JWT Auth"]
+      skills: ["Node.js", "Express.js", "REST APIs", "MongoDB", "JWT Auth", "Python (Backend & Automation)"]
     },
     {
       title: "Frontend",
@@ -20,7 +20,7 @@ export default function Skills() {
     {
       title: "Tools & Others",
       color: "#ffd700",
-      skills: ["Git", "GitHub", "Postman", "VS Code", "Linux"]
+      skills: ["Git", "GitHub", "Postman", "VS Code", "Linux", "Zapier"]
     }
   ];
 

@@ -10,8 +10,8 @@ export default function About() {
     },
     {
       icon: Code,
-      title: "Backend Excellence",
-      description: "Crafting scalable REST APIs and microservices with Node.js and Express"
+      title: "Backend & Python Development",
+      description: "Crafting scalable REST APIs and automation solutions using Node.js, Express, and Python"
     },
     {
       icon: Database,
@@ -47,14 +47,14 @@ export default function About() {
         >
           <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-8 shadow-2xl">
             <p className="text-gray-300 text-lg leading-relaxed mb-4">
-              I'm a developer with a passion for secure system design and backend architecture.
-              My journey in tech combines the analytical mindset of cybersecurity with the
-              creativity of full-stack development.
+             I'm a developer with a passion for secure system design and backend architecture. My journey in tech combines the analytical mindset of cybersecurity with the creativity of full-stack development.
+
+             Alongside working with modern web technologies, I actively use Python for backend development, automation, and building secure, efficient applications.
+
             </p>
             <p className="text-gray-400 leading-relaxed">
-              Whether it's building RESTful APIs, implementing authentication systems, or
-              exploring network security concepts, I'm driven by the challenge of creating
-              robust, secure, and efficient solutions.
+              
+             Whether it's building RESTful APIs, implementing authentication systems, or exploring network security concepts, I'm driven by the challenge of creating robust, secure, and scalable solutions.
             </p>
           </div>
         </motion.div>

@@ -39,7 +39,7 @@ export default function Hero() {
         >
           <span className="text-[#00ff41]">Cybersecurity Enthusiast</span>
           <span className="text-gray-500">|</span>
-          <span className="text-[#00d9ff]">Backend Developer</span>
+          <span className="text-[#00d9ff]">Python Developer</span>
           <span className="text-gray-500">|</span>
           <span className="text-gray-300">MERN Stack Developer</span>
         </motion.div>
