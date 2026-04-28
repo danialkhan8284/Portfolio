@@ -71,7 +71,7 @@ export default function Hero() {
           </a>
 
           <a
-            href="\CV.pdf"
+            href="CV.pdf"
             download="Danial_Khan_CV.pdf"
             className="group relative px-8 py-4 border-2 border-[#00d9ff] text-[#00d9ff] font-semibold rounded-lg overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(0,217,255,0.3)] hover:bg-[#00d9ff]/10"
           >
