@@ -72,7 +72,7 @@ export default function Hero() {
 
           <a
             href="CV.pdf"
-            download="Muhammad_Danial_Khan_CV.pdf"
+            download="Danial_Khan_CV.pdf"
             className="group relative px-8 py-4 border-2 border-[#00d9ff] text-[#00d9ff] font-semibold rounded-lg overflow-hidden transition-all hover:scale-105 hover:shadow-[0_0_30px_rgba(0,217,255,0.3)] hover:bg-[#00d9ff]/10"
           >
             <span className="relative z-10 flex items-center gap-2">
