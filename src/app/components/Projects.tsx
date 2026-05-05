@@ -108,14 +108,14 @@ export default function Projects() {
 
                 <div className="flex gap-4">
                   <a
-                    href="https://github.com/danialkhan8284/"
+                    href="https://github.com/danialkhan8284?tab=repositories"
                     className="flex items-center gap-2 text-[#00ff41] hover:text-[#00d9ff] transition-colors"
                   >
                     <Github className="w-5 h-5" />
                     <span className="text-sm font-mono">Code</span>
                   </a>
                   <a
-                    href="https://github.com/danialkhan8284/"
+                    href="https://github.com/danialkhan8284?tab=repositories"
                     className="flex items-center gap-2 text-[#00d9ff] hover:text-[#00ff41] transition-colors"
                   >
                     <ExternalLink className="w-5 h-5" />
