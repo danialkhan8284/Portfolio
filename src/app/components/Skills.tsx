@@ -2,8 +2,15 @@ import { motion } from "motion/react";
 
 export default function Skills() {
   const skillCategories = [
+   
     {
-      title: "Backend",
+      title: "Cybersecurity",
+      color: "#ff0080",
+      skills: ["Penetration Testing", "Network Security", "OWASP Top 10", "Security Audits", "Vulnerability Assessment", "Linux Security Fundamentals"]
+    },
+   
+    {
+      title: "Backend & Security Development",
       color: "#00ff41",
       skills: ["Node.js", "Express.js", "REST APIs", "MongoDB", "JWT Auth", "Python (Backend & Automation)"]
     },
@@ -12,15 +19,11 @@ export default function Skills() {
       color: "#00d9ff",
       skills: ["React.js", "HTML5", "CSS3", "Tailwind CSS", "Responsive Design"]
     },
-    {
-      title: "Cybersecurity",
-      color: "#ff0080",
-      skills: ["Penetration Testing", "Network Security", "OWASP Top 10", "Security Audits"]
-    },
+ 
     {
       title: "Tools & Others",
       color: "#ffd700",
-      skills: ["Git", "GitHub", "Postman", "VS Code", "Linux", "Zapier"]
+      skills: ["Git", "GitHub", "Postman", "VS Code", "Linux CLI", "Burp Suite", "OWASP ZAP", "Zapier"]
     }
   ];
 

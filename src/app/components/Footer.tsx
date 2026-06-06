@@ -47,9 +47,9 @@ export default function Footer() {
 
         {/* Divider */}
         <div className="mt-8 pt-8 border-t border-white/10">
-          <p className="text-center text-gray-500 text-sm">
+          {/* <p className="text-center text-gray-500 text-sm">
             Built with <span className="text-[#00ff41]">React</span> & <span className="text-[#00d9ff]">Tailwind CSS</span>
-          </p>
+          </p> */}
         </div>
       </div>
     </footer>

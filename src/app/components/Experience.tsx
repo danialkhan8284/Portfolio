@@ -12,10 +12,10 @@ export default function Experience() {
     },
     {
       type: "work",
-      title: "Freelance Web Developer",
-      organization: "Self-Employed",
-      period: "Jun 2024 - Dec 2024",
-      description: "Built full-stack MERN applications for small businesses with focus on security and performance."
+      title: "Ethical Hacking",
+      organization: "Kaizen Hive",
+      period: "Jun 2026 - In-Progress",
+      description: "Currently learning and practicing ethical hacking concepts including reconnaissance, scanning, and vulnerability assessment. Gaining hands-on exposure to penetration testing tools and methodologies such as Nmap, basic exploitation concepts, and system security analysis. Developing practical understanding of how attackers think and how to secure systems effectively."
     }
   ];
 
@@ -34,13 +34,13 @@ export default function Experience() {
       period: "2025",
       description: "Currently pursuing certification in ethical hacking and penetration testing methodologies."
     },
-     {
-      type: "education",
-      title: "MERN Stack Developer",
-      organization: "Chai with Code",
-      period: "2026",
-      description: "Currently pursuing a course in Backend Development to strengthen my skills in server-side technologies and application logic."
-    }
+    //  {
+    //   type: "education",
+    //   title: "MERN Stack Developer",
+    //   organization: "Chai with Code",
+    //   period: "2026",
+    //   description: "Currently pursuing a course in Backend Development to strengthen my skills in server-side technologies and application logic."
+    // }
   ];
 
   return (

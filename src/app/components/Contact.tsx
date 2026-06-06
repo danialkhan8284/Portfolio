@@ -61,7 +61,7 @@ export default function Contact() {
           </h2>
           <div className="w-24 h-1 bg-gradient-to-r from-[#00ff41] to-[#00d9ff] mx-auto mb-4" />
           <p className="text-gray-400 max-w-2xl mx-auto">
-            Have a project in mind or want to discuss opportunities? Drop me a message!
+            Looking for cybersecurity opportunities, internships, or ethical hacking collaborations. Reach out to connect.
           </p>
         </motion.div>
 
@@ -106,23 +106,23 @@ export default function Contact() {
               <ul className="space-y-3">
                 <li className="flex items-center gap-3 text-gray-300">
                   <div className="w-2 h-2 bg-[#00ff41] rounded-full" />
-                  Backend Development Projects
+                  Cybersecurity Projects
                 </li>
                 <li className="flex items-center gap-3 text-gray-300">
                   <div className="w-2 h-2 bg-[#00d9ff] rounded-full" />
-                  Security Consulting
+                  Ethical Hacking & Security Labs
                 </li>
                 <li className="flex items-center gap-3 text-gray-300">
                   <div className="w-2 h-2 bg-[#00ff41] rounded-full" />
-                  Full-Stack Development
+                  Vulnerability Assessment (Web & Network)
                 </li>
                 <li className="flex items-center gap-3 text-gray-300">
                   <div className="w-2 h-2 bg-[#00d9ff] rounded-full" />
-                  Freelance Opportunities
+                 SOC & Log Analysis Practice
                 </li>
                   <li className="flex items-center gap-3 text-gray-300">
                   <div className="w-2 h-2 bg-[#00d9ff] rounded-full" />
-                  Python Development
+                 Python for Cybersecurity & Automation
                 </li>
               </ul>
             </div>

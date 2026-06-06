@@ -10,13 +10,7 @@ export default function Projects() {
       tags: ["Python", "Networking", "Security"],
       color: "#00ff41"
     },
-    {
-      title: "E-Commerce REST API",
-      description: "Scalable Node.js backend with Express, MongoDB, JWT authentication, payment integration, and comprehensive error handling.",
-      image: "https://images.unsplash.com/photo-1687603921109-46401b201195?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiYWNrZW5kJTIwc2VydmVyJTIwYXBpJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzU5NDQxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["Node.js", "Express", "MongoDB"],
-      color: "#00d9ff"
-    },
+ 
     {
       title: "Password Strength Analyzer",
       description: "Web app that evaluates password security using entropy calculation, pattern detection, and provides improvement suggestions.",
@@ -24,10 +18,11 @@ export default function Projects() {
       tags: ["React", "Security", "Algorithms"],
       color: "#ff0080"
     },
+   
     {
-      title: "Real-Time Chat Application",
-      description: "Full-stack MERN chat app with Socket.io for real-time messaging, room management, and message encryption.",
-      image: "https://images.unsplash.com/photo-1568716353609-12ddc5c67f04?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwzfHxjeWJlcnNlY3VyaXR5JTIwaGFja2luZyUyMGNvZGUlMjB0ZXJtaW5hbHxlbnwxfHx8fDE3NzU5NDQxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      title: "SOC Simulator",
+      description: "A SOC Simulator that mimics real-time security monitoring by analyzing logs and detecting suspicious activities such as unauthorized access attempts and network scanning. It demonstrates core SOC concepts including threat detection, log analysis, and incident response fundamentals.",
+      image: "https://images.unsplash.com/photo-1550751827-4bd374c3f58b",
       tags: ["MERN Stack", "Socket.io", "WebSockets"],
       color: "#ffd700"
     },
@@ -37,7 +32,14 @@ export default function Projects() {
       image: "https://images.unsplash.com/photo-1643000867361-cd545336249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWNrZW5kJTIwc2VydmVyJTIwYXBpJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzU5NDQxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
       tags: ["Node.js", "Security", "Middleware"],
       color: "#00d9ff"
-    }
+    },
+    // {
+    //   title: "E-Commerce REST API",
+    //   description: "Scalable Node.js backend with Express, MongoDB, JWT authentication, payment integration, and comprehensive error handling.",
+    //   image: "https://images.unsplash.com/photo-1687603921109-46401b201195?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiYWNrZW5kJTIwc2VydmVyJTIwYXBpJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzU5NDQxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+    //   tags: ["Node.js", "Express", "MongoDB"],
+    //   color: "#00d9ff"
+    // },
   ];
 
   return (

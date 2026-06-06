@@ -39,9 +39,9 @@ export default function Hero() {
         >
           <span className="text-[#00ff41]">Cybersecurity Enthusiast</span>
           <span className="text-gray-500">|</span>
-          <span className="text-[#00d9ff]">Python Developer</span>
+          <span className="text-[#00d9ff]">Aspiring SOC Analyst</span>
           <span className="text-gray-500">|</span>
-          <span className="text-gray-300">MERN Stack Developer</span>
+          <span className="text-gray-300">Linux & Python</span>
         </motion.div>
 
         <motion.p
@@ -50,8 +50,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-gray-400 text-lg max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          Building secure, scalable backend systems and web applications.
-          Passionate about defensive security and clean code architecture.
+          Aspiring SOC Analyst passionate about threat detection, vulnerability assessment, and securing systems through proactive security practices.
         </motion.p>
 
         <motion.div
@@ -82,16 +81,16 @@ export default function Hero() {
           </a>
         </motion.div>
 
-        <motion.div
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 1, delay: 1.2 }}
-          className="absolute bottom-12 left-1/2 -translate-x-1/2"
+        {/* <motion.div
+          // initial={{ opacity: 0 }}
+          // animate={{ opacity: 1 }}
+          // transition={{ duration: 1, delay: 1.2 }}
+          // className="absolute bottom-12 left-1/2 -translate-x-1/2"
         >
           <div className="w-6 h-10 border-2 border-[#00ff41] rounded-full p-1 animate-bounce">
             <div className="w-1.5 h-1.5 bg-[#00ff41] rounded-full mx-auto animate-pulse" />
           </div>
-        </motion.div>
+        </motion.div> */}
       </div>
     </section>
   );

@@ -1,22 +1,22 @@
 import { motion } from "motion/react";
-import { Shield, Code, Database } from "lucide-react";
+import { Shield, Network, Bug } from "lucide-react";
 
 export default function About() {
   const features = [
     {
       icon: Shield,
       title: "Security First",
-      description: "Passionate about building secure systems with defense-in-depth principles"
+      description: "Passionate about identifying vulnerabilities, securing systems, and applying security best practices to protect applications and networks."
     },
     {
-      icon: Code,
-      title: "Backend & Python Development",
-      description: "Crafting scalable REST APIs and automation solutions using Node.js, Express, and Python"
+      icon: Network,
+      title: "Network & System Security",
+      description: "Building practical skills in Linux security, networking fundamentals, vulnerability assessment, and security monitoring."
     },
     {
-      icon: Database,
-      title: "Full Stack",
-      description: "End-to-end MERN stack development with focus on robust architecture"
+      icon: Bug,
+      title: "Security Tools & Labs",
+      description: "Hands-on experience with Nmap, Wireshark, Burp Suite, OWASP ZAP, Nikto, and TryHackMe labs for practical cybersecurity learning."
     }
   ];
 
@@ -47,14 +47,14 @@ export default function About() {
         >
           <div className="backdrop-blur-xl bg-white/5 border border-white/10 rounded-2xl p-8 shadow-2xl">
             <p className="text-gray-300 text-lg leading-relaxed mb-4">
-             I'm a developer with a passion for secure system design and backend architecture. My journey in tech combines the analytical mindset of cybersecurity with the creativity of full-stack development.
+            I'm a Cybersecurity enthusiast with a strong interest in Network Security, Vulnerability Assessment, and System Security. My journey in technology is driven by a passion for understanding how systems work, identifying security weaknesses, and learning how to protect digital assets from emerging threats.
 
-             Alongside working with modern web technologies, I actively use Python for backend development, automation, and building secure, efficient applications.
+            I have hands-on experience with Linux environments, networking fundamentals, security assessment tools, and practical cybersecurity labs. Through platforms like TryHackMe and real-world practice, I continuously develop my skills in vulnerability analysis, web application security, and defensive security techniques.
 
             </p>
             <p className="text-gray-400 leading-relaxed">
               
-             Whether it's building RESTful APIs, implementing authentication systems, or exploring network security concepts, I'm driven by the challenge of creating robust, secure, and scalable solutions.
+            My goal is to build a career in Cyber Security, contribute to securing systems and networks, and grow into roles such as SOC Analyst, Security Analyst, or Penetration Tester.
             </p>
           </div>
         </motion.div>
