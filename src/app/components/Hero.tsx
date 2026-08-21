@@ -37,11 +37,11 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.4 }}
           className="flex flex-wrap items-center justify-center gap-3 mb-6 text-lg md:text-xl font-mono"
         >
-          <span className="text-[#00ff41]">Cybersecurity Enthusiast</span>
+          <span className="text-[#00ff41]">Aspiring Cybersecurity Analyst | SOC | VAPT | Network & Web Security</span>
+          {/* <span className="text-gray-500">|</span>
+          <span className="text-[#00d9ff]">SOC Analyst</span>
           <span className="text-gray-500">|</span>
-          <span className="text-[#00d9ff]">Aspiring SOC Analyst</span>
-          <span className="text-gray-500">|</span>
-          <span className="text-gray-300">Linux & Python</span>
+          <span className="text-gray-300">Linux & Python</span> */}
         </motion.div>
 
         <motion.p
@@ -50,7 +50,7 @@ export default function Hero() {
           transition={{ duration: 0.8, delay: 0.6 }}
           className="text-gray-400 text-lg max-w-2xl mx-auto mb-12 leading-relaxed"
         >
-          Aspiring SOC Analyst passionate about threat detection, vulnerability assessment, and securing systems through proactive security practices.
+          Aspiring Cybersecurity Analyst passionate about SOC operations, vulnerability assessment, network security, and threat detection. Focused on identifying security risks, analyzing threats, and developing practical skills to protect systems and networks.
         </motion.p>
 
         <motion.div

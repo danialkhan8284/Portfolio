@@ -12,10 +12,10 @@ export default function Projects() {
     },
  
     {
-      title: "Password Strength Analyzer",
-      description: "Web app that evaluates password security using entropy calculation, pattern detection, and provides improvement suggestions.",
+      title: "Network Sniffer",
+      description: "Developed a Python-based Network Sniffer to capture and analyze network packets in real time. The project monitors network traffic and extracts important information such as source/destination IP addresses, protocols, ports, packet size, and other packet details. It helped strengthen practical understanding of TCP/IP, network protocols, packet analysis, and network security monitoring.",
       image: "https://images.unsplash.com/photo-1543148898-0a32d4cf6d1f?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxjeWJlcnNlY3VyaXR5JTIwaGFja2luZyUyMGNvZGUlMjB0ZXJtaW5hbHxlbnwxfHx8fDE3NzU5NDQxMzR8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["React", "Security", "Algorithms"],
+      tags: ["Python", "Networking", "Security", "Packet Analysis", "Real-time Analysis"],
       color: "#ff0080"
     },
    
@@ -27,10 +27,10 @@ export default function Projects() {
       color: "#ffd700"
     },
     {
-      title: "API Rate Limiter Middleware",
-      description: "Custom Express middleware implementing token bucket algorithm for API rate limiting and DDoS protection.",
-      image: "https://images.unsplash.com/photo-1643000867361-cd545336249b?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwxfHxiYWNrZW5kJTIwc2VydmVyJTIwYXBpJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzU5NDQxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
-      tags: ["Node.js", "Security", "Middleware"],
+      title: "Python-Keystroke-Event-Logger",
+      description: "A Python application that logs keystroke events for security analysis and monitoring purposes.",
+      image: "https://images.unsplash.com/photo-1687603921109-46401b201195?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3w3Nzg4Nzd8MHwxfHNlYXJjaHwyfHxiYWNrZW5kJTIwc2VydmVyJTIwYXBpJTIwdGVjaG5vbG9neXxlbnwxfHx8fDE3NzU5NDQxMzV8MA&ixlib=rb-4.1.0&q=80&w=1080",
+      tags: ["Python", "Security", "Logging", "Monitoring", "Keystroke Analysis"],
       color: "#00d9ff"
     },
     // {
